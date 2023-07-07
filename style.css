@@ -1,0 +1,460 @@
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #183B56;
+}
+.button{
+    font-size: 14.4px;
+    font-family: Open Sans;
+    background-color:  #183B56;
+    border: none;
+    padding: 10px;
+    width: 167px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    line-height: normal;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.button1{
+    font-size: 14.4px;
+    font-family: Open Sans;
+    background-color:  #183B56;
+    border: none;
+    padding: 10px;
+    width: 40%;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button1 a{
+    color: white;
+    text-decoration: none;
+}
+.button2{
+    font-size: 14.4px;
+    font-family: Open Sans;
+    background-color:  #183B56;
+    border: none;
+    padding: 10px;
+    width: 13%;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    line-height: normal;    
+
+}
+.inspired{
+    font-size: 18px;
+}
+
+.button2 a{
+    color: white;
+    text-decoration: none;
+}
+.price{
+color: #36B37E;
+text-align: center;
+font-size: 19.2px;
+font-style: normal;
+font-weight: 700;
+line-height: 25.6px;
+letter-spacing: 0.16px;
+}
+.made{
+    color: #36B37E;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .made {
+      text-align: center;
+    }
+  }
+p{  
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+}
+span{
+    color: #5A7184;
+    font-size: 14px;
+    line-height: 24px;
+}
+.name{
+color: #183B56;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0.2px;
+}
+.main-p{
+    font-size: 18px;
+    color: #5A7184;
+}
+.Source{
+color: #183B56;
+width: 287px;
+height: 104px;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 992px) {
+    .main-p {
+        width: 100%;
+    }
+  }
+  
+  /* On screens that are 600px or less */
+  @media screen and (max-width: 600px) {
+    .main-p ,.price {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+   /* On screens that are 600px or less */
+   @media screen and (max-width: 600px) {
+        .name {
+    text-align: center;
+      font-size: 32px;
+      width: 100%;;
+    }
+  }
+
+     /* On screens that are 600px or less*/
+     @media screen and (max-width: 600px) {
+        .latest {
+    text-align: center;
+      font-size: 28px;
+      width: 100%;
+    }
+  }
+
+       /* On screens that are 600px or less*/
+       @media screen and (max-width: 600px) {
+        .latest-p {
+    text-align: center;
+      font-size: 16px;
+      width: 100%;
+    }
+  }
+
+  .latest-p{
+color: #183B56;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+  }
+
+  .suited{
+color: #183B56;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.2px;
+  }
+
+       /* On screens that are 600px or less */
+       @media screen and (max-width: 600px) {
+        .quote-name {
+        text-align: center;
+        font-size: 24px;
+    }
+  }
+  .quote-name{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .quote{
+color: #183B56;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.12px;
+  }
+.product-p{
+color: #5A7184;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+         /* On screens that are 600px or less */
+         @media screen and (max-width: 600px) {
+            .button {
+                margin-left: 25%;
+          font-size: 16px;
+          width: 167px;
+        }
+      }
+.overlay-text {
+align-self: flex-start;
+padding:20px;
+margin-top: 5%;
+}
+.FirstDIV {
+    transform: translate(30%,70%);
+    height: 200px;
+    
+
+}
+.SecondDIV{
+    transform: translate(-10%,-50%);
+}
+
+
+@media screen and (max-width: 992px) {
+    .FirstDIV {
+        display: none;
+        transform: translate(200%,-10%);
+    
+    }
+    .SecondDIV{
+        transform: translate(-30%,0%);
+    }
+  }
+
+           /* On screens that are 600px or less */
+           @media screen and (max-width: 600px) {
+            .FirstDIV {
+                display: none;
+                height: 200px;
+            
+            }
+            .SecondDIV{
+
+                transform: translate(0%,10%);
+            }
+      }
+
+      @media screen and (max-width: 992px) {
+        .fa-quote-left {
+            transform: translate(-150%,-170%);
+        
+        }
+      }
+
+            @media screen and (max-width: 600px) {
+        .fa-quote-left {
+            transform: translate(-55%,-320%);
+        
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .fa-check {
+            text-align: center;
+        }
+      }
+
+      @media screen and (max-width: 992px) {
+        .fa-check {
+            transform: translate(-200%,190%);
+        }
+      }
+      .fa-check{
+        transform: translate(-20%,180%);
+
+      }
+
+      @media screen and (max-width: 600px) {
+        .Source {
+            width: 100%;
+            text-align: center;
+        }
+      }
+
+      @media screen and (max-width: 992px) {
+        .button2{
+            width: 20%;
+        }
+      }
+    
+         /* On screens that are 600px or less */
+        @media screen and (max-width: 600px) {
+        .button2{
+            width: 40%;
+        }
+                
+     }
+
+     @media screen and (max-width: 600px) {
+        .quote{
+           text-align: center;
+        }
+                
+     }
+     .fa-arrow{
+        padding: 15px 20px;
+        border-radius: 50px;
+        background-color: white;
+        border: 1px solid #183B56;
+     }
+
+     .fa-arrow:hover{
+        padding: 15px 20px;
+        border-radius: 50px;
+        background-color:#649af7;
+        border: 1px solid black;
+     }
+     .get-it{
+        width: 131px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px solid #183B56;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+     }
+     .get-it a{
+        text-decoration: none;
+
+     }
+
+.navbar a{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #183B56;
+}
+
+.navbar-toggler {
+    color: #183B56;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.fa-google{
+    color: gray;
+    background-color:#E8E8E8;
+    padding: 25px 10px;
+    border-radius: 50%;
+}
+.fa-linkedin{
+    color: gray;
+    background-color: #E8E8E8;
+    padding: 25px 10px;
+    border-radius: 50%;
+}
+.fa-twitter{
+    color: gray;
+    background-color: #E8E8E8;
+    padding: 25px 10px;
+    border-radius: 50%;
+}
+.fa-instagram{
+    color: gray;
+    background-color: #E8E8E8;
+    padding: 25px 10px;
+    border-radius: 50%;
+}
+.fa-heart{
+    background-color: #4392f9;
+    padding: 15px 15px;
+    border-radius: 50%;
+    
+}
+.build{
+color: #5A7184;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.build1{
+    color: #5A7184;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+     /* On screens that are 600px or less */
+     @media screen and (max-width: 600px) {
+        .fa-heart{
+         display: none;
+    }      
+}
+
+
+     /* On screens that are 600px or less */
+     @media screen and (max-width: 600px) {
+        .last-logo{
+            text-align: center;
+            
+        }   
+}
+
+     /* On screens that are 600px or less */
+     @media screen and (max-width: 600px) {
+        .icon{
+            display: flex;
+            justify-content: center;
+            
+        }
+}
+
+     /* On screens that are 600px or less */
+     @media screen and (max-width: 992px) {
+        .last-logo{
+           text-align: center;
+        }
+}
+
+@media screen and (max-width: 992px) {
+    .icon{
+       display: flex;
+       justify-content: center;
+    }
+}
+
+.foot-h5{
+    font-size: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+     /* On screens that are 600px or less */
+     @media screen and (max-width: 600px) {
+        .copy{
+        display: none;
+    }
+}
+
+
+
+
